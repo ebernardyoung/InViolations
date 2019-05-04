@@ -1,5 +1,5 @@
-library(ISLR)
-Food_Inspections = iris
-head(Food_Inspections)
-Food_Inspection_Violations = iris
-head(Food_Inspection_Violations)
+attach(Food_Inspections)
+summary(SCORE)
+mean(SCORE)
+attach(Food_Inspection_Violations)
+summary(POINTVALUE)
